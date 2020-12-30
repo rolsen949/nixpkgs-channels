@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - mattermost > superagent > extend:
+        patched: '2020-12-30T01:48:59.828Z'
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - archiver > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - js-sequence-diagrams > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - mermaid > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - minio > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - sequelize > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - sequelize-cli > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - archiver > async > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - winston > async > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - archiver > zip-stream > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - mermaid > graphlib > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - mermaid > dagre > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - mermaid > dagre-d3 > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - mermaid > dagre > graphlib > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - mermaid > dagre-d3 > graphlib > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - mermaid > dagre-d3 > dagre > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - mermaid > dagre-d3 > dagre > graphlib > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+    - turndown > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-12-30T01:48:59.828Z'
+  'npm:mime:20170907':
+    - mattermost > superagent > mime:
+        patched: '2020-12-30T01:48:59.828Z'
