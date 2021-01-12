@@ -226,7 +226,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    redcarpet (3.3.4)
+    redcarpet (3.5.1)
     request_store (1.5.0)
       rack (>= 1.4)
     ri_cal (0.8.8)
@@ -331,7 +331,7 @@ DEPENDENCIES
   puma (>= 3.12.6)
   rails (~> 5.2, >= 5.2.4.4)
   ransack (>= 1.8.2)
-  redcarpet
+  redcarpet (>= 3.5.1)
   ri_cal
   roust (>= 1.8.9)
   rqrcode
