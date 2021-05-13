@@ -18,7 +18,7 @@ gem 'pg', group: :postgresql
 gem 'sqlite3', group: :sqlite3
 
 # Use Puma as the app server
-gem 'puma', '>= 3.12.6'
+gem 'puma', '>= 5.3.1'
 
 # Capistrano for deployment
 group :capistrano do
